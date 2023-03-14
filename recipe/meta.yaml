@@ -1,5 +1,5 @@
 {% set name = "priori" %}
-{% set version = "1.0.4" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ohsu-comp-bio/regulon-enrichment/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: b109fc1fdb1b873df0ddfd0264bc87384ba94c77fecc9976261d06500914239b
+  sha256: 181bfedf69fd59b889ce6d0b84ab58fb923b2d966b0c99cbd0f3beb0f517e1da
 
 build:
   number: 0
