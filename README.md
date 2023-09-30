@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/priori-feedstoc
 
 Home: https://github.com/ohsu-comp-bio/regulon-enrichment
 
-Package license: GPL-2.0-or-later
+Package license: GPL-3.0
 
 Summary: Priori predicts transcription factor activity from RNA sequencing data using prior, literature-supported regulatory relationship information
 
