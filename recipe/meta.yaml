@@ -10,7 +10,7 @@ source:
   sha256: 6ba7bec15afe2ad40cb407098a8429c12cab735cb65fdafcc1e895557e51e6dd
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - priori=priori.priori:main
 
