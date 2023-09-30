@@ -1,5 +1,5 @@
 {% set name = "priori" %}
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,12 @@ package:
 
 source:
   url: https://github.com/ohsu-comp-bio/regulon-enrichment/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 181bfedf69fd59b889ce6d0b84ab58fb923b2d966b0c99cbd0f3beb0f517e1da
+  sha256: 6ba7bec15afe2ad40cb407098a8429c12cab735cb65fdafcc1e895557e51e6dd
 
 build:
-  number: 1
+  number: 0
   entry_points:
     - priori=priori.priori:main
-  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
