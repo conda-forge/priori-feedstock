@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/ohsu-comp-bio/regulon-enrichment/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 6ba7bec15afe2ad40cb407098a8429c12cab735cb65fdafcc1e895557e51e6dd
+  sha256: ed561810610d80524c3fdf51bbd1d087154b222452858e5ac54d4c9d8bb7a7bc
 
 build:
-  number: 1
+  number: 0
   entry_points:
-    - priori=priori.priori:main
+    - priori=priori
 
 requirements:
   host:
